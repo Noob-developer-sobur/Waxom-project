@@ -1,0 +1,927 @@
+/*================common css sart============*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 0.8;
+}
+/*================common css end===================*/
+/*================navbar css start===================*/
+#navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.logo{
+    width: 20%;
+    padding-top: 36px;
+}
+.menu{
+    width: 79%;
+}
+.serch-box {
+    
+    position: absolute;
+    margin-top: -66px;
+    right: 0px;
+    transform: translate(-50%,-50%);
+    background-color: rgba(8, 8, 8, 0.3);
+    border: none;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 8px;
+    margin-right: -46px;
+    
+}
+.serch-text{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 13px;
+    transition: .4s;
+}
+.serch-btn i{
+    color: white;
+    transition: all linear .3s;
+}
+.serch-btn i:hover{
+    color: #c7b299
+}
+/* .menu ul{
+    text-align: right;
+} */
+.menu ul li{
+   display: inline-block;
+   padding-top: 49px;
+   padding-bottom: 57px;
+}
+.menu ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-right: 17px;
+    padding-left: 17px;
+    transition: all linear .3s;
+}
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
+.menu ul li a:hover{
+    color: #c7b299;
+}
+/*================navbar css end===================*/
+/*================banner css start===================*/
+#banner{
+    background: linear-gradient(rgba(17, 17, 17, 0.7),rgba(17, 17, 17, 0.7)) ,url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 380px;
+    padding-bottom: 380px;
+    position: relative;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+    padding-bottom: 29px;
+}
+.banner-content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight:800;
+    font-size: 52px;
+    color: #ffffff;
+    padding-bottom: 24px;
+}
+.banner-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 285px;
+    margin-bottom: 55px;
+}
+.banner-content button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #998675;
+    padding: 22px 45px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    margin-left: -100px;
+    transition: all linear .3s;
+    position: absolute;
+
+}
+.banner-content button:hover{
+    background-color: #c7b299;
+    color: #222222;
+}
+.partical{
+}
+#particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*================banner css end===================*/
+/*================discount css start===================*/
+
+#discount{
+    padding-top: 25px;
+    text-align: center;
+    background: linear-gradient(to right, #211b19,#4e3427);
+    width: 100%;
+    height: 253px;
+    position: relative;
+}
+ h1 {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+li{ 
+    font-family: 'roboto', sans-serif;
+    font-weight: 200;
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    text-transform: uppercase;
+    color: white;
+}
+  
+li span{
+    display: block;
+    padding: 42px;
+    font-size: 4.5rem;
+    color: white;
+}
+/*================discount css end===================*/
+/*================service css start===================*/
+#service{
+    padding-top: 80px;
+    height: 213px;
+}
+.service-content{
+    position: relative;
+}
+.service-item{
+    text-align: center;
+    
+    display: block;
+    margin: 0;
+}
+.service-icon g{
+    transition: all linear .3s;
+}
+.service-item .service-icon{
+    height: 71px;
+    width: 280px;
+}
+.service-content h2{
+    transition: all linear .3s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #555555;
+    text-transform: capitalize;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    
+}
+.service-content p{
+    padding-left: 41px;
+    font-family: 'Montserrat', sans-serif
+    font-weight:300;
+    font-size: 14px;
+    color: #8c8c8c;
+    width: 218px
+}
+.service-content::after{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 109px;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    transition: all linear .3s;
+}
+ .service-item:hover .g{
+    fill: #c7b299
+ }
+ .service-item:hover .service-content h2{
+     color: #c7b299;
+}
+.service-item:hover .service-content:after{
+    background-color: #c7b299;
+}
+/*================service css end===================*/
+/*================idea section css start===================*/
+#idea-part{
+    padding: 0 auto;
+}
+.idea-item{
+    text-align: center;
+}
+.idea-title h2{
+   padding-top: 163px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   color: #555555;
+}
+.idea-title p{
+    padding: 21px 160px;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+}
+.idea-banner-part{
+    padding-top: 16px;
+}
+.idea-banner-part img{
+    display: block;
+}
+
+/*================idea section css end===================*/
+/*================wordpress them section css start===================*/
+#them-part{
+    padding-top: 37px;
+    padding-bottom: 55px;
+    background: linear-gradient(to right, #211b19,#4e3427) ;
+}
+.heding-left{
+    text-align: center;
+    padding-top: 16px;
+}
+.heding-left h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #ffffff;
+}
+.heding-left h2 span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #c7b299;
+}
+.heding-left p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #615855;
+    padding-top: 7px;
+}
+.right-button{
+    margin-top: 18px;
+    align-items: center;
+    position: relative;
+    /* display: flex; */
+}
+.right-button button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 3px solid #736357;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    padding-left: 28px;
+    padding-right: 28px;
+    cursor: pointer;
+    background-color: #998675;
+    border-radius: 5px;
+    border: none;
+    transition: all linear .3s;
+}
+.right-button button:hover{
+   background-color: #b6a289;
+}
+/*================wordpress them section css end===================*/
+/*================Letast project css start===================*/
+#letast-project{
+    background: rgb(255, 255, 255);
+}
+.hadding-title1{
+    text-align: center;
+}
+.hadding-title1 h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #555555;
+    padding-top: 81px;
+    padding-bottom: 28px;
+    text-transform: capitalize;
+}
+.hadding-title1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #8c8c8c;
+    padding-top: 30px;
+    line-height: 28px;
+    padding: 0px 200px;
+    padding-bottom: 43px;
+}
+.mixt-up-button{
+    padding-bottom: 46px;
+}
+.mixt-up-button ul{
+    display: flex;
+    padding: 0px 261px;
+}
+.mixt-up-button ul li{
+    padding: 0px 5px;
+}
+.mixt-up-button ul li a{
+    padding: 6px 24px;
+    border: 1px solid #ebebeb;
+    color: #8c8c8c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: all linear .4s;
+}
+.mixt-up-button ul li a:hover{
+    background-color: #998675;
+    color: #ffffff;
+}
+.project-image img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project-content{
+    background-color: #fbfaf8;
+    padding: 20px 25px;
+    transition: all linear .3s;
+    position: relative;
+}
+.project-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project-item{
+    width: 370px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.project-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all linear .3s;
+    background-color: rgba(17, 17, 17, 0.7);
+}
+.project-item:hover .project-content h4{
+    color: #fff;
+}
+.project-item:hover .project-content p{
+    color: #c7b299;
+}
+.project-item:hover .project-content{
+    background-color: #362f2d;
+}
+.project-item:hover .project-content:after{
+    background-color: #362f2d;
+}
+.project-item .project-image:hover .project-overlay{
+    transform: scaleY(1);
+    opacity: 1;
+}
+.project-content:after{
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    width: 28px;
+    transform: rotate(45deg);
+    height: 28px;
+    background-color: #fff;
+    transition: all linear .3s;
+}
+.project-content h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight:  500;
+    font-size: 20px;
+    color: #c7b299;
+    line-height: 40px;
+}
+.project-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:  500;
+    font-size: 14px;
+    color: #d1d1d1;
+}
+.p-icon a:hover{
+    color: #c7b299;
+}
+.project-image{
+    position: relative;
+}
+.p-icon{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50% -50%);
+}
+.p-icon a{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: all linear .3s;
+}
+.mixtup-button1 button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #998675;
+    padding: 22px 45px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 3px solid #736357;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+.mixtup-button1{
+    padding-left: 48%;
+    padding-top: 16px;
+    padding-bottom: 80px;
+}
+/*================Letast project css end===================*/
+
+/*================video part html start===================*/
+#video-part{
+    background: linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5)), url('../images/video.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.video-content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 43px;
+}
+.video-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 305px;
+    padding-top: 23px;
+    line-height: 31px;
+}
+/*================video part html end===================*/
+/*================mobile part css start===================*/
+.mobile-item{
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-i{
+    display: grid;
+    position: absolute;
+    padding-top: 6px;
+}
+.mobile-img img{
+    width: 421px;
+    padding-top: 80px;
+    display: block;
+}
+.mobile-ipart{
+    padding-left: 56px;
+    padding-top: 42px;
+}
+.mobile-i a{
+    padding: 2px 0px;
+    line-height: 32px;
+}
+.mobile-hading h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #555555;
+    padding-top: 200px;
+    padding-left: 28px;
+    padding-bottom: 40px;
+}
+.mobile-hading p{
+    padding-left: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+.mobil-pera p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    width: 493px;
+    padding-left: 50px;
+}
+/*================mobile part css end===================*/
+/*================counter part css start===================*/
+#count-bar{
+    background: linear-gradient(to right, #211b19,#4e3427) ;
+    height: 310px;
+    width: 100%;
+    align-items: center;
+}
+.item-main{
+    display: flex;
+    justify-content: space-between;
+}
+.item-logo{
+    text-align: center;
+    margin: 31px;
+    padding-left: 58px;
+    padding-top: 37px;
+}
+.item-logo-content{
+    padding: 27px 0px 0px;
+    position: relative;
+}
+.item-logo-content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.item-logo-content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #c7b299;
+    width: 112px;
+}
+.item-logo-content p::after{
+    content: '';
+    background-color: #fff;
+    width: 56px;
+    left: 29px;
+    bottom: -30px;
+    height: 2px;
+    display: block;
+    position: absolute;
+}
+/*================counter part css end===================*/
+/*================post css start===================*/
+.post-hading{
+    text-align: center;
+    margin-top: 80px;
+}
+.post-hading h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    padding-bottom: 20px;
+}
+.post-hading p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #8c8c8c;
+    width: 850px;
+    display: inline-block;
+}
+.post-item{
+    margin-top: 40px;
+    padding: 15px;
+}
+.post-item-img{
+    position: relative;
+}
+.post-item-img img{
+    width: 100%;
+    display: block;
+}
+.calendar-item{
+    position: absolute;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+    z-index: 999;
+}
+.calendar-itme1{
+    background-color: #363636;
+    height: 57px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all linear .3s;
+}
+.calendar-itme2{
+    background-color: #252525;
+    height: 25px;
+    width: 50px;
+    margin-top: -25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all linear .3s;
+}
+.calendar-itme1 h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 3px;
+    color: #ffffff;
+}
+.calendar-itme2 p{
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+.post-item-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: all linear .3s;
+}
+.post-item-contant{
+    padding-top: 20px;
+    padding-left: 20px;
+    transition: all linear .3s;
+}
+.post-item-contant h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #555555;
+    padding-bottom: 20px;
+}
+.post-item-contant p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 20px;
+    width: 363px;
+    padding-bottom: 10px;
+}
+.post-item-contant a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #c7b299;
+}
+.icon-arry{
+    color: #c7b299;
+    margin-top: 2px;
+    margin-left: 6px;
+    position: absolute;
+    display: inline-block;
+}
+.post-i-button{
+    text-align: center;
+}
+.post-i-button i{
+    color: #575757;
+    border-radius: 50px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(192, 165, 133);
+    transition: all linear .3s;
+}
+.post-i-button a{
+    margin-top: 20px;
+    padding: 3px;
+    display: inline-block;
+}
+.post-i-button:hover{
+    color: rgb(192, 165, 133);
+}
+.post-i-button i:hover{
+    color: rgb(192, 165, 133);
+}
+.post-item:hover .calendar-itme1{
+    background-color: rgb(199, 178, 153);
+}
+.post-item:hover .calendar-itme2{
+    background-color: rgb(164, 141, 114);
+}
+.post-item:hover .post-item-contant h3{
+    color: #c7b299;
+}
+.post-item:hover .post-item-contant{
+    background-color: rgb(17, 17, 17);
+}
+.post-item:hover .post-item-contant p{
+    color: #fff;
+}
+.post-item:hover .post-item-contant a{
+    color: #c7b299;
+}
+.post-item:hover .post-item-contant i{
+    color: #c7b299;
+}
+.post-item:hover .post-item-overlay{
+    background-color: rgba(17, 17, 17, 0.7);
+}
+.post-item:hover .post-item-overlay{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+/*================post css end===================*/
+/*================brande-banner css start===================*/
+#brande-banner{
+    background: linear-gradient(rgba(17, 17, 17, 0.7),rgba(17, 17, 17, 0.7)) ,url('../images/foter-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 123px;
+}
+.brande-banner-item{
+    text-align: center;
+}
+.brande-banner-item img{
+    padding: 30px;
+}
+/*================brande-banner css end===================*/
+/*================footer part css start===================*/
+#footer-part{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(25, 25, 25);
+}
+.footer-content{
+    width: 280px;
+    display: flex;
+}
+.footer-hadline-title{
+    padding-top: 100px;
+}
+.footer-hadline-title p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    padding-top: 30px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #555555;
+}
+.footer-hadline-title a{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding-top: 35px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #d1d1d1;
+}
+.footer-hadline-title i{
+    color: #d1d1d1;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.footer-hadline-title h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #d1d1d1;
+}
+.rendom1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #363636;
+    transition: all linear .4s;
+}
+.rendom2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #555555;
+    padding-top: 0px;
+    transition: all liner .4s;
+}
+.footer-hadline-content{
+    display: inline-block;
+    margin-top: 64px;
+}
+.footer-hadline-content img{
+    padding: 3px;
+}
+.footer-hadline-title p:hover{
+    color: #d1d1d1;
+}
+.rendom2 p::after{
+    content: '';
+    width: 200px;
+    height: 1px;
+    margin-top: 31px;
+    margin-left: -198px;
+    position: absolute;
+    background-color: #252525;
+}
+/*================footer part css end===================*/
+/*================copyright part css start===================*/
+#copyright{
+    width: 100%;
+    height: 111px;
+    background-color: #111;
+}
+.copyright-item1 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #555555;
+    position: absolute;
+    padding-top: 60px;
+    text-transform: capitalize;
+}
+.copyright-item1 span{
+    color: #959595;
+}
+.copyright-item1 .s{
+    color: #c7b299;
+}
+.copyright-item2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: #555555;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 800px;
+    text-transform: capitalize;
+}
+.copyright-item2 span{
+    color: #959595;
+}
+.copyright-item2 .one{
+    color: ##959595;
+}
+/*================copyright part css end===================*/
